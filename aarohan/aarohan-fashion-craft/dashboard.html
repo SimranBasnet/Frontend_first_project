@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Account | Aarohan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fffaf7;
+    }
+
+    header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+header nav {
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+header nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+    .dashboard-container {
+      display: flex;
+      padding: 40px;
+      gap: 30px;
+    }
+
+    .sidebar {
+      flex: 0 0 200px;
+      background: #f7f7f7;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .content {
+      flex: 1;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #d45d79;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #999;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Aarohan</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">&#x1F6D2;</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+      
+
+  <div class="dashboard-container">
+    <div class="sidebar">
+      <a href="#">My Orders</a>
+      <a href="#">Wishlist</a>
+      <a href="#">Profile</a>
+      <a href="login.html">Logout</a>
+    </div>
+
+    <div class="content">
+      <h2>Welcome, [User]</h2>
+      <p>This is your dashboard. From here, you can view your recent orders, manage your wishlist, and update your profile details.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Aarohan. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

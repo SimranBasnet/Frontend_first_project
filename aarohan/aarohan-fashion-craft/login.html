@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login | Aarohan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fffaf7;
+      display: flex;
+      flex-direction: column; /* Allow header and content to stack */
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0; /* Remove default margin */
+    }
+
+    header {
+      width: 100%;
+      background-color: #d45d79; /* Header background color */
+      padding: 10px 0; /* Padding for the header */
+      position: absolute; /* Positioning the header */
+      top: 0; /* Align to the top */
+      left: 0; /* Align to the left */
+      text-align: center; /* Center the text */
+    }
+
+    .logo {
+      font-size: 24px;
+      color: white; /* Logo text color */
+      font-weight: bold;
+    }
+
+    nav {
+      margin-top: 10px; /* Space between logo and nav */
+    }
+
+    nav a {
+      color: white; /* Link color */
+      margin: 0 15px; /* Space between links */
+      text-decoration: none; /* Remove underline */
+    }
+
+    nav a:hover {
+      text-decoration: underline; /* Underline on hover */
+    }
+
+    .login-box {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+      margin-top: 80px; /* Space below the header */
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #d45d79;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      transition: border-color 0.3s; /* Smooth transition for border color */
+    }
+
+    input:focus {
+      border-color: #d45d79; /* Change border color on focus */
+      outline: none; /* Remove default outline */
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #d45d79;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer; /* Change cursor to pointer */
+      transition: background-color 0.3s; /* Smooth transition for background color */
+    }
+
+    button:hover {
+      background-color: #c44c6e; /* Darker shade on hover */
+    }
+
+    .alt-link {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .alt-link a {
+      color: #d45d79;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Aarohan</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">🛒</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+  
+  <div class="login-box">
+    <h2>Login to Aarohan</h2>
+    <form action="#">
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <div class="alt-link">
+      Don’t have an account? <a href="register.html">Register</a>
+    </div>
+  </div>
+
+</body>
+</html>
